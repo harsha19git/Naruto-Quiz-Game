@@ -1,0 +1,111 @@
+body {
+    display:grid;
+    justify-content:space-around;
+    background-color: rebeccapurple;
+    background-image: -webkit-linear-gradient(rgb(94, 10, 143) , rgb(31, 3, 27) );
+    background-image: url(https://i.pinimg.com/originals/8c/80/f1/8c80f138dcfcd90bd0748d14525e3932.png) ,
+     url(https://orig00.deviantart.net/e396/f/2016/271/5/a/minato_and_kushina_render_by_weissdrum-daj7pgj.png) ,
+     url(https://www.logolynx.com/images/logolynx/53/535a81a10386da8715e28fbfd82fe3a5.png);
+    background-repeat: no-repeat;
+    background-position: left ,right,top;
+    background-size: 300px 550px , 350px 550px , 500px 200px;
+}
+
+header {
+    width: 600px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color:wheat;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    border: 7px solid rgb(243, 144, 105);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#para {
+    width: 700px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color:rgb(241, 171, 66);
+    margin-left: 180px;
+}
+
+.mbtn {
+
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 50px;
+    border-color:unset;
+    background-image: -webkit-linear-gradient(rgb(240, 109, 181) , rgb(243, 144, 105));
+}
+
+.mbtn:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
+#sl {
+    background-image: -webkit-linear-gradient(rgb(240, 69, 163) , rgb(233, 101, 49));
+}
+
+#sl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
+#tl {
+    background-image: -webkit-linear-gradient(rgb(245, 46, 155) , rgb(238, 84, 23));
+}
+
+#tl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
+
+#frl {
+    background-image: -webkit-linear-gradient(rgb(250, 4, 139) , rgb(248, 74, 6));
+}
+
+#frl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
+#ffl {
+    background-image: -webkit-linear-gradient(rgb(248, 55, 55) , rgb(230, 130, 91));
+}
+
+#ffl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+#sxl {
+    background-image: -webkit-linear-gradient(rgb(231, 52, 52) , rgb(199, 109, 50));
+}
+
+#sxl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
+#svl{
+    background-image: -webkit-linear-gradient(rgb(255, 30, 30) , rgb(189, 130, 3));
+}
+
+#svl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+#nl {
+    background-image: -webkit-linear-gradient(rgb(214, 55, 27) , rgb(255, 209, 4));
+}
+
+#nl:hover {
+    background-image: -webkit-linear-gradient(rgb(119, 180, 21) , rgb(21, 179, 179));
+}
+
