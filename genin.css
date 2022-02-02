@@ -1,0 +1,151 @@
+body {
+    background-image:url(https://static.tvtropes.org/pmwiki/pub/images/naruto_kakashi.png) ,
+     url(https://th.bing.com/th/id/R.3149aa903f15859c5bd9d8e1416fdc39?rik=1yBSvs8GHj7nIQ&riu=http%3a%2f%2forig00.deviantart.net%2f16be%2ff%2f2011%2f300%2f1%2f6%2fasuma_sarutobi_by_alakazum-d4e4ywt.png&ehk=FgzupQTyaGs3UoYhYs%2f0nAdaDxUmOYf6NYOlvOcaqrk%3d&risl=&pid=ImgRaw&r=0),
+     url(https://th.bing.com/th/id/R.cab94f1787f8521731d9704b3bc40932?rik=1QH7nXZd1MtiSw&riu=http%3a%2f%2fimages3.wikia.nocookie.net%2f__cb20130404025318%2fplaystationallstarsfanfictionroyale%2fimages%2f4%2f45%2fNaruto_sage_mode_render_by_luishatakeuchiha-d5of0w3.png&ehk=0d79%2fpaaTiloM42au0rA1%2fDaAw54qT2i2UbnGWAjc9o%3d&risl=&pid=ImgRaw&r=0) ,
+     url(https://i.pinimg.com/originals/79/0b/02/790b0264b9ff70f05b35220a888a023b.png);
+    background-position:left , right , top , bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat , no-repeat;
+    background-size:  350px 800px, 450px 800px, 700px 900px , 1500px 750px;
+    background-color: rgb(138, 31, 31);
+}
+
+
+
+#cch {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-image: url(G2.png);
+    background-size:cover;
+    width: 90px;
+    height: 40px;;
+    border-radius: 200px;
+    border-style:solid;
+    padding: 10px;
+    text-align:center;
+
+}
+
+#cch:hover {
+    background-image: url(G3.png);
+}
+
+
+#topImg {
+    z-index: 0;
+    margin-left: 185px;
+}
+
+#heading {
+    color: rgb(26, 7, 4);
+    text-align: center;
+    font-weight:bolder;
+    font-size: 50px;
+    background:rgb(231, 231, 141);
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 250px;
+    width: 600px;
+    position: relative;
+    animation-name: cool;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+
+    transition: width 2s , height 2s, transform 2s;
+}
+
+#heading:hover {
+    width: 550px;
+    height: initial;
+    transform:rotate(-25deg);
+}
+
+@keyframes cool {
+   
+    0%  { background-color: rgb(224, 96, 37); left:0px; top: 0px;}
+    25% { background-color: rgb(148, 126, 1); left:100px;  top: 0px;}
+    50% { background-color: rgb(30, 104, 98); left: 0px; top:50px; }  
+    75% {background-color: rgb(43, 64, 160);  left: 100px; top: 50px; } 
+    100%{background-color: rgb(255, 71, 126); left: 50px; top: 0px; }
+}
+
+#q1 {
+    margin-top: 250px;
+}
+
+.ques {
+
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    width: 400px;
+    height: 90px;
+    border-style:ridge;
+    border-radius: 25px;
+    margin: 50px;
+    margin-top: 50px;
+    margin-left:475px;
+    margin-bottom: 50px;
+    border-color:unset;
+    background-image: url(G2.png);
+    background-size: cover;
+   
+}
+
+.ques:hover {
+    background-image: -webkit-linear-gradient(rgb(228, 76, 49) , rgb(168, 20, 30));
+}
+
+
+
+.btn{
+
+    width: 300px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    /* background-image: -webkit-linear-gradient(rgb(158, 28, 19) , rgb(241, 114, 64)); */
+    background-image: url(G3.png);
+    background-size:cover;
+    background-color: rgb(216, 188, 97);
+    border-radius: 5px 5px;
+    border-color: oldlace;
+   
+}
+
+.btn:hover {
+   background-image: -webkit-linear-gradient(rgb(194, 197, 184) , rgb(226, 116, 53)); 
+   /* (rgb(207, 49, 228) , rgb(168, 20, 30));  */
+}
+
+
+
+
+.goGreen {
+
+    background-image: -webkit-linear-gradient(rgb(180, 240, 16) , rgb(41, 84, 223)); 
+    box-shadow: yellowgreen ;
+    border-radius: 20px;
+    background-size: 100px 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px 40px; 
+    margin-left: 595px;
+
+}
+
+
+
+
+.goRed {
+   background-image: -webkit-linear-gradient(rgb(240, 16, 16) , rgb(71, 20, 11));
+   border-radius: 20px;
+   background-size: 100px 200px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 30px;
+   margin-left: 595px;
+}
+
+
+
+
+
+   
