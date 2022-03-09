@@ -117,16 +117,19 @@ header {
     top: 30px;
     left: 30px;
     background-image: url(G2.png);
+    background-color: transparent;
     background-size:cover;
     width: 90px;
     height: 40px;;
     border-radius: 200px;
     border-style:solid;
-    padding: 10px;
     text-align:center;
+    padding: 10px;
+    color: yellowgreen;
     
 }
 
 #cch:hover {
     background-image: url(G3.png);
+    background-color: blueviolet;
 }

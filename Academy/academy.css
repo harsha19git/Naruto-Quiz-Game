@@ -67,7 +67,7 @@ p:hover {
 
 
 
- .btn{
+.btn{
 
      width: 300px;
      margin-left: 250px;
@@ -77,11 +77,11 @@ p:hover {
      border-radius: 5px 5px;
      border-color: oldlace;
     
- }
+}
 
- .btn:hover {
+.btn:hover {
     background-image: -webkit-linear-gradient(rgb(240, 162, 16) , rgb(188, 236, 13)); 
- }
+}
 
  
 
@@ -113,7 +113,8 @@ p:hover {
     position: absolute;
     top: 30px;
     left: 30px;
-    background-image: url(G2.png);
+    background-image: url(..\Gradient\G2.png);
+    background-color: transparent;
     background-size:cover;
     width: 90px;
     height: 40px;;
@@ -121,10 +122,42 @@ p:hover {
     border-style:solid;
     padding: 10px;
     text-align:center;
+    color: yellowgreen;
     
 }
 
 #cch:hover {
-    background-image: url(G3.png);
+    background-image: url(..\Gradient\G3.png);
+    background-color: rgb(169, 90, 205);
 }
 
+#countDown {
+    position:fixed;
+    height: 10%;
+    width: 10%;
+    margin: 0% 80%;
+    text-align:center;
+    padding: 5% 2%;
+    text-shadow: 0px 0px 20px rgb(240, 15, 240);
+    background-color: transparent;
+    color: rgb(124, 163, 62);
+    color: rgb(9, 187, 119);
+    font-size: 6.5rem;
+    font-weight: bolder;
+}
+
+#score {
+    position:fixed;
+    height: 10%;
+    width: 10%;
+    margin: 0% 2%;
+    text-align:center;
+    padding: 5% 2%;
+    text-shadow: 0px 0px 30px rgb(185, 248, 12);
+    background-color: transparent;
+    color: rgb(226, 137, 21);
+    color: rgb(209, 233, 74);
+    font-size: 6.5rem;
+    font-weight: bolder;
+
+}

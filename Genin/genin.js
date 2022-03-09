@@ -1,3 +1,5 @@
+let score = document.getElementById('score');
+score.innerText='score';
 function convert(q , aq) {
     let x = document.getElementById(q);
     x.remove();
@@ -61,6 +63,7 @@ function changeColor (correct , inc , q , isGreen) {
     d.style. boxShadow= "10px 10px 80px yellowGreen";
     d.classList.add("goGreen");
     correctAns++;
+    score.innerText = correctAns;
     if(correctAns == 3) 
     alert("Congratulations! you made it to Jonin level");
    
@@ -101,3 +104,32 @@ function teamLeader() {
     }
 
 }
+
+
+let timer = 100;
+let countDown = document.getElementById("countDown");
+
+let timerFunction = () => {
+    if(assign == 5 || incorrectAns == 3) {
+        clearInterval(interval);
+
+    }
+   
+    timer = timer - 1;
+    console.log(timer);
+    countDown.innerText = timer;
+    if(timer == 0)
+    {
+      clearInterval(interval);
+      countDown.innerText = "stop!";
+      let buttons = document.querySelectorAll(".btn");
+        for(i = 0; i < buttons.length; i++){
+         buttons[i].setAttribute('disabled' ,'true');
+      }
+
+
+    }
+    
+}
+
+interval = setInterval(timerFunction,600);

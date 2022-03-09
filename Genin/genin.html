@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="genin.css">
+    <link rel="stylesheet" href=".\genin.css">
     <title>Genin</title>
 </head>
-
-<div>
+<body>
+    <div id="countDown" onload="interval()"></div>
+    <div id="score"></div><br>
     <header>
         <div id="heading">ready for the mission?</div>
     </header>
+    
 
-<!-- -->
-<button id="cch" onclick="count()" >Tap Here</button>
+<button id="cch" onclick="count()" >CC</button>
 <div id="container">
     <div id="div1">
 
-        <audio id="aq1" controls style="display:none"><source src="Voice\01.mp3" type="audio/mp3" ></audio>
+        <audio id="aq1" controls style="display:none"><source src="..\Voice\01.mp3" type="audio/mp3" ></audio>
         <button class="ques" id="q1" onclick="convert('q1','aq1')"> Tap and tell Who's voice is this? </button><br><br>
         <div id ="que1">
         <div><button class ="btn inc1" onclick="changeColor ('c1' , 'inc1' , 'que1' , false)">Asuma Sarutobi</button>
@@ -32,7 +33,7 @@
        
     
 
-        <audio id="aq2" controls style="display:none"><source src="Voice\02.mp3" type="audio/mp3" ></audio>
+        <audio id="aq2" controls style="display:none"><source src="..\Voice\02.mp3" type="audio/mp3" ></audio>
         <button class="ques" id="q2" onclick="convert('q2','aq2')"> Tap and tell Who's voice is this?  </button><br><br>
         <div id="que2">
         <div><button class ="btn inc2" onclick="changeColor ('c2' , 'inc2' , 'que2' , false)">Kiba Inuzuka</button>
@@ -43,7 +44,7 @@
         <br><br>
            
 
-        <audio id="aq3" controls style="display:none"><source src="Voice\04.mp3" type="audio/mp3" ></audio>
+        <audio id="aq3" controls style="display:none"><source src="..\Voice\04.mp3" type="audio/mp3" ></audio>
         <button class="ques" id="q3" onclick="convert('q3','aq3')"> Recognize the voice  </button><br><br>
         <div id="que3">
         <div><button class="btn inc3"  onclick="changeColor ('c3', 'inc3' , 'que3' , false)">Kakashi Hatake</button>
@@ -53,7 +54,7 @@
         <br><br>
         </div>
         
-        <audio id="aq4" controls style="display:none"><source src="Voice\03.mp3" type="audio/mp3" ></audio>
+        <audio id="aq4" controls style="display:none"><source src="..\Voice\03.mp3" type="audio/mp3" ></audio>
         <button class="ques" id="q4" onclick="convert('q4','aq4')"> Who's Madara refering to? Tap and tell  </button><br><br>
         <div id="que4">
         <div><button class="btn" id="c4" onclick="changeColor ('c4' , 'inc4' , 'que4' , true)">Mighty guy</button>
@@ -65,7 +66,7 @@
     
    
         
-        <audio id="aq5" controls style="display:none"><source src="Voice\05.mp3" type="audio/mp3" ></audio>
+        <audio id="aq5" controls style="display:none"><source src="..\Voice\05.mp3" type="audio/mp3" ></audio>
         <button class="ques" id="q5" onclick="convert('q5','aq5')"> Tap here and Guess! Who said it? </button><br><br>
         <div id = "que5">
         <div><button class="btn" id="c5" onclick="changeColor ('c5' , 'inc5' , 'que5' , true)">Itaachi Uchiha</button>
@@ -82,7 +83,7 @@
             <button id="b_paragraph">Take me to JONIN Training!</button>
         </div> -->
    
-   <script src="genin.js"></script>
+   <script src=".\genin.js"></script>
 
 </body>
 </html>

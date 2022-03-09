@@ -2,6 +2,9 @@
 var correctAns = 0; 
 var incorrectAns = 0;
 var assign = 0;
+let score = document.getElementById('score');
+score.innerText='score';
+
 function changeColor (correct , inc , q , isGreen) {
     assign++;
     let a = document.getElementById(correct);
@@ -20,6 +23,7 @@ function changeColor (correct , inc , q , isGreen) {
     d.style. boxShadow= "10px 10px 50px yellowGreen";
     d.classList.add("goGreen");
     correctAns++;
+    score.innerText = correctAns;
     if(correctAns == 3) {
         alert("Congratulations! you made it to Genin level");
   
@@ -30,8 +34,14 @@ function changeColor (correct , inc , q , isGreen) {
     d.style. boxShadow= "10px 10px 80px rgb(253, 5, 5)";
     d.classList.add("goRed"); 
     incorrectAns++;
-    if(incorrectAns == 3)
-    alert("Give it another try! You'll get there.");
+    if(incorrectAns == 3) {
+        alert("Give it another try! You'll get there.");
+        let buttons = document.querySelectorAll(".btn");
+        for(i = 0; i < buttons.length; i++){
+         buttons[i].setAttribute('disabled' ,'true');
+      }
+    }
+   
 
     
   }
@@ -46,6 +56,8 @@ function changeColor (correct , inc , q , isGreen) {
     c[0].appendChild(d);
     num++;
 }
+
+
 
 
 
@@ -84,6 +96,34 @@ function teamLeader() {
 
 }
 
+
+let timer = 60;
+let countDown = document.getElementById("countDown");
+
+let timerFunction = () => {
+    if(assign == 5 || incorrectAns == 3) {
+        clearInterval(interval);
+
+    }
+   
+    timer = timer - 1;
+    console.log(timer);
+    countDown.innerText = timer;
+    if(timer == 0)
+    {
+      clearInterval(interval);
+      countDown.innerText = "stop!";
+      let buttons = document.querySelectorAll(".btn");
+        for(i = 0; i < buttons.length; i++){
+         buttons[i].setAttribute('disabled' ,'true');
+      }
+
+
+    }
+    
+}
+
+interval = setInterval(timerFunction,600);
 
 
 
